@@ -1,4 +1,4 @@
-# Object detection with Tensofrlow API  
+# Person detection example with Tensofrlow API  
 
 ## Installation  
 First of all you need Linux machine with `Python3.7`. Than do next steps:  
@@ -26,3 +26,7 @@ For more information use help
 ```sh
 python recognition -h
 ```  
+
+## Example 
+
+![](output/output.gif)
