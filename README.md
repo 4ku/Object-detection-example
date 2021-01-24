@@ -4,8 +4,8 @@
 First of all you need Linux machine with `Python3.7`. Than do next steps:  
 1. Go to project repository and create a virtual environment.  
     ```sh
-    virtualenv env
-    env/bin/activate
+    python3.7 -m virtualenv env
+    . env/bin/activate
     ```
 2. Run installation script
     ```sh
