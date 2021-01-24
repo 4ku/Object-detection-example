@@ -1,7 +1,7 @@
 git clone --depth 1 https://github.com/tensorflow/models
-sudo apt install -y protobuf-compiler
+sudo apt-get install -y protobuf-compiler
 cd models/research/
 protoc object_detection/protos/*.proto --python_out=.
 cp object_detection/packages/tf2/setup.py .
-python -m pip install .
-python -m pip install -r ../../requirements.txt
+python3 -m pip install .
+python3 -m pip install -r ../../requirements.txt
